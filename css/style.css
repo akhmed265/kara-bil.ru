@@ -1,0 +1,193 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  /* font-family: 'PT Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;   */
+  /* font-family: 'Kosugi Maru', sans-serif; */
+}
+
+body {
+  /* background-image: url('../img/bkg/bkg-img.jpg'); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  background-color: beige;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.wrapper {
+  width: 1300px;
+  margin: 50px auto 0 auto;
+  /* outline: solid red; */
+  background-color: white;
+}
+
+.login-btns {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 25px;
+  padding-top: 25px;
+}
+
+.btn-register,
+.btn-login {
+  display: inline-block;
+  justify-content: end;
+  padding: 0 20px;
+  height: 40px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-style: 15px;
+  font-weight: 400;
+  border: none;
+  color: white;
+}
+
+.btn-register {
+  background-color: #9c9b95;
+}
+
+.btn-login {
+  background-color: #b47474 ;
+}
+
+.menu-list-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color:#efe2c3;
+  text-decoration: none;
+  padding-left: 50px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.main-menu-link-header {
+  font-weight: 600;
+  color: #254f0f;
+}
+
+.search-header {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 10px 0;
+}
+
+.search-box {
+  position: relative;
+}
+
+.header-name {
+  font-family: Roboto;
+  margin: 12px 0 0 100px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.header-feather-icon {
+  width: 50px;
+  height: 50px;
+  margin: 14px 0 0px 30px;
+}
+
+.search-imput {
+  font-weight: 300;
+  display: inline-block;
+  margin: 15px 0 0 20px ;
+  width: 800px;
+  height: 50px;
+  border: 1px solid black;
+  padding-left: 20px;
+  /*background-color: #fafafa;*/
+  border-radius: 7px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.loupe-icons {
+  position: absolute;
+  cursor: pointer;
+  align-items: center;
+  height: 22px;
+  width: 22px;
+  right: 25px;
+  top: 28px;
+}
+
+.search-text {
+  display: block;
+  position: absolute;
+  padding: 0 10px;
+  height: 18px;
+  margin-bottom: 0;
+}
+
+.submit {
+  background-color: white;
+}
+
+.night-mode-icons {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  margin: 12px 0px 0px 45px;
+}
+
+.icon-header {
+  max-width: 5%;
+  margin-right: 4px;
+}
+
+.section {
+  display: flex;
+  gap: 10px;
+}
+
+.poems {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.poem {
+  margin: 25px 0 0 0;
+  min-width: 450px;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  /* height: 254px; */
+}
+
+.poem:hover {
+  
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.poem-pre {
+  white-space: pre;
+  padding: 10px 20px 0 38px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 24px;
+}
+
+.autor {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  padding: 25px 15px 15px 0;
+  font-family: 'Send Flowers', cursive;
+}
