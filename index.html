@@ -4,17 +4,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat:wght@400;500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/active.css">
 </head>
 <body>
   <div class="wrapper">
 
-    <div class="header-side">
-      <div class="login-btns">
-        <button class="btn-register">Регистрация</button>
-        <button class="btn-login">Войти</button>
-      </div>
+    <div class="login-buttons">
+      <button class="button-register">Регистрация</button>
+      <button class="button-login">Войти</button>
     </div>
 
     <header class="page-header">
@@ -29,29 +29,37 @@
             </button>
            </div>
        </form>
-          <img src="./img/icons/night-mode.png" alt="Луна" class="night-mode-icons">
+       <i class="fa fa-moon-o" aria-hidden="true"></i>
+
+          <!-- <img src="./img/icons/night-mode.png" alt="Луна" class="night-mode-icons"> -->
       </div>
       
       <nav class="list-header">
         <ul class="menu-list-header">
           <li class="menu-header">
             <a href="#" class="main-menu-link-header">
-              <img src="./img/icons/home.png" alt="home" class="icon-header">Главная</a>
+              <i class="fa fa-home" aria-hidden="true"></i>
+              Главная</a>
           </li>
   
           <li class="menu-header">
             <a href="#" class="main-menu-link-header"> 
-              <img src="./img/icons/woman.png" alt="user" class="icon-header">Об авторе</a>
+              <i class="fa fa-user" aria-hidden="true"></i>
+              Об авторе</a>
+              <!-- <img src="./img/icons/woman.png" alt="user" class="icon-header">Об авторе</a> -->
           </li>
          
           <li class="menu-header">
             <a href="#" class="main-menu-link-header">
-              <img src="./img/icons/letter.png" alt="letter" class="icon-header">Контакты</a>
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              Контакты</a>
+              <!-- <img src="./img/icons/letter.png" alt="letter" class="icon-header">Контакты</a> -->
           </li>
 
           <li class="menu-header">
             <a href="#" class="main-menu-link-header">
-              <img src="./img/icons/poetry.png" alt="list" class="icon-header">Стихи</a>
+              <i class="fa fa-pencil" aria-hidden="true"></i>
+              Стихи</a>
           </li>
 
           <!--<li class="menu-header">
@@ -61,118 +69,8 @@
       </nav>      
     </header>
 
-    <div class="section">
-        <div class="poems content-block">
-          <ul class="poems-list">
-           <!-- <div class="poems-box">-->
-              <li class="poem"> 
-                <h1>Казнь </h1>
-                <div class="poem-pre hide-content">
-                    Сплит и горесть снова в коме.
-                    Волочат меня гонцы.
-            
-                    И душа на эшафоте
-                    Громко мне кричат "Молчи!"
-            
-                    Моветоном мысли рвутся,
-                    До ушей идут мольбы.
-            
-                    Я как будто там и не был,
-                    Или быд, но как мертвец.
-            
-                    Он забрал меня оттуда
-                    Ангел смерти Азраил.
-            
-                    Что бы я не видел зла
-                    Человеческой души. 
-              </div>         
-              <div class="autor">
-                                    <b><i> Кара Бил.</i></b>
-                                    <b><i> 29 июня 2021.</i></b>  </li>
-
-                                  </div>                      
-            <!--</div>-->
-            <div class="poems">
-              <li class="poem">
-                <h1>****</h1>
-                <div class="poem-pre content-block">
-                    Мне так нравится, Боже, 
-                    как ты цветёшь.
-                    Будто в сумраке лето встаёт.
-                    <p class="hide-content">
-                    Пить «Мерло» научил
-                    наряду с коньяком. 
-
-                    Просыпаться рано –
-                    в пять. 
-
-                    А сейчас ты глядишь на меня
-                    и всё ждёшь. 
-
-                    Мне самой  так же хочется 
-                    всё разнести. 
-                    И кричать, будто ведьмин гул! 
-
-                    Одеваться в платья, 
-                    во все мрака цвета. 
-
-                    И глазами сводить с ума.
-
-                    Эту тонкую грань между
-                    «Да, я твоя!»
-                    или ядом тебя сломать. 
-
-                    Я клянусь, мне так нравится
-                    как ты цветешь. 
-                    Кареглазый шатен
-                    у пруда.
-
-                    Но я знаю, что, милый, 
-                    меня ты убьёшь. 
-                    Как увидишь зелёные, 
-                    злые глаза. 
-
-                    Если нет –
-                    это сделаю я. 
-                  </p>
-                  <button class="show-more">Показать ещё</button>
-                </div>
-                              <div class="autor">
-                                <b><i> Кара Бил.</i></b>
-                                <b><i> 3 апреля 2022.</i></b>  </li>
-                              </div>  
-                                   
-                <!-- </div> -->
-              </li>
-              <li class="poem"> 
-                <h1>**** </h1>
-                <div class="poem-pre">
-                  я помню всё твоё бессилие,
-                  и как свинец залило в кровь. 
-                  кусая губы свои синие, 
-                  ты приобрел чужой порок. 
-                  
-                  и как по маслу, спицы быстрые
-                  мне в голову упёрлись навсегда.
-                  а ты смотрел на руки влажные,
-                  и говорил, что мне пора.
-              </div>         
-              <div class="autor">
-                                    <b><i> Кара Бил.</i></b>
-                                    <b><i> the Date</i></b>  </li>
-                                  </div>                     
-            </div>
-            
-<!-- 
-
- -->
-
-          </ul>
+    
         </div>
-    </div>
-
-  </div>  
-
 <link rel="stylesheet" href="./js/script.js">
 </body>
 </html>

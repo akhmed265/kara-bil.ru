@@ -28,15 +28,15 @@ button {
   background-color: white;
 }
 
-.login-btns {
+.login-buttons {
   display: flex;
   flex-direction: row-reverse;
   margin-right: 25px;
   padding-top: 25px;
 }
 
-.btn-register,
-.btn-login {
+.button-register,
+.button-login {
   display: inline-block;
   justify-content: end;
   padding: 0 20px;
@@ -50,11 +50,11 @@ button {
   color: white;
 }
 
-.btn-register {
+.button-register {
   background-color: #9c9b95;
 }
 
-.btn-login {
+.button-login {
   background-color: #b47474 ;
 }
 
@@ -71,7 +71,8 @@ button {
 
 .main-menu-link-header {
   font-weight: 600;
-  color: #254f0f;
+  color: black;
+  font-size: 17px;
 }
 
 .search-header {
@@ -98,14 +99,13 @@ button {
 }
 
 .search-imput {
-  font-weight: 300;
   display: inline-block;
   margin: 15px 0 0 20px ;
   width: 800px;
   height: 50px;
   border: 1px solid black;
   padding-left: 20px;
-  /*background-color: #fafafa;*/
+  background-color: #fafafa;
   border-radius: 7px;
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
@@ -134,11 +134,11 @@ button {
   background-color: white;
 }
 
-.night-mode-icons {
+.fa-moon-o {
   cursor: pointer;
-  width: 40px;
-  height: 40px;
   margin: 12px 0px 0px 45px;
+  font-size: 35px;
+  color: black;
 }
 
 .icon-header {
