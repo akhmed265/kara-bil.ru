@@ -1,76 +1,143 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Caveat:wght@400;500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/active.css">
-</head>
-<body>
-  <div class="wrapper">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/lightslider.min.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/active.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="login-buttons">
+        <button class="button-register">Регистрация</button>
+        <button class="button-login">Войти</button>
+      </div>
 
-    <div class="login-buttons">
-      <button class="button-register">Регистрация</button>
-      <button class="button-login">Войти</button>
-    </div>
-
-    <header class="page-header">
-      <div class="search-header">
-        <h2 class="header-name">kara bil</h2>
-        <img src="./img/icons/feather-line-icon.png" alt="Перо" class="header-feather-icon">
-        <form id="quicksearch" method="post">
-          <div class="search-box">
-             <input class="search-imput" type="text" placeholder="Поиск на сайте..." autocomplete="off"> 
-            <button class="submit" type="submit">
-              <img src="./img/icons/loupe.png" alt="Лупа" class="loupe-icons">
-            </button>
-           </div>
-       </form>
-       <i class="fa fa-moon-o" aria-hidden="true"></i>
+      <header class="page-header">
+        <div class="search-header">
+          <h2 class="header-name">kara bil</h2>
+          <img
+            src="./img/icons/feather-line-icon.png"
+            alt="Перо"
+            class="header-feather-icon"
+          />
+          <form id="quicksearch" method="post">
+            <div class="search-box">
+              <input
+                class="search-imput"
+                type="text"
+                placeholder="Поиск на сайте..."
+                autocomplete="off"
+              />
+              <button class="submit" type="submit">
+                <img
+                  src="./img/icons/loupe.png"
+                  alt="Лупа"
+                  class="loupe-icons"
+                />
+              </button>
+            </div>
+          </form>
+          <i class="fa fa-moon-o" aria-hidden="true"></i>
 
           <!-- <img src="./img/icons/night-mode.png" alt="Луна" class="night-mode-icons"> -->
+        </div>
+
+        <nav class="list-header">
+          <ul class="menu-list-header">
+            <li class="menu-header">
+              <a href="#" class="main-menu-link-header">
+                <i class="fa fa-home" aria-hidden="true"></i>
+                Главная</a
+              >
+            </li>
+
+            <li class="menu-header">
+              <a href="#" class="main-menu-link-header">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                Об авторе</a
+              >
+              <!-- <img src="./img/icons/woman.png" alt="user" class="icon-header">Об авторе</a> -->
+            </li>
+
+            <li class="menu-header">
+              <a href="#" class="main-menu-link-header">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                Контакты</a
+              >
+              <!-- <img src="./img/icons/letter.png" alt="letter" class="icon-header">Контакты</a> -->
+            </li>
+
+            <li class="menu-header">
+              <a href="#" class="main-menu-link-header">
+                <i class="fa fa-pencil" aria-hidden="true"></i>
+                Стихи</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="page-content">
+        <div class="poem-list">
+          <a href="#" class="poem poem__mon-ami">
+            <h3 class="poem__name">Прощай, мон ами</h3>
+          </a>
+           <a href="#" class="poem poem__stop-me">
+            <h3 class="poem__name">Останови меня</h3>
+          </a>
+          <a href="#" class="poem poem__doomed">
+            <h3 class="poem__name">Обречённый</h3>
+          </a>
+          <a href="#" class="poem poem__calmness">
+            <h3 class="poem__name">Спокойствие</h3>
+          </a>
+          <a href="#" class="poem poem__nothing">
+            <h3 class="poem__name">ни-че-го</h3>
+          </a>
+          <a href="#" class="poem poem__forgot">
+            <h3 class="poem__name">увы, забыл</h3>
+          </a>
+          <!-- <a href="brands/elliatt.html" class="brand brand_elliatt">
+            <h3 class="brand__name">ELLIATT</h3>
+          </a>
+          <a href="brands/storm-marie.html" class="brand brand_storm-marie">
+            <h3 class="brand__name">STORM & MARIE</h3>
+          </a>
+          <a href="brands/wildfox.html" class="brand brand_wildfox">
+            <h3 class="brand__name">WILDFOX</h3>
+          </a>  -->
+        </div>
+      </div>        
       </div>
       
-      <nav class="list-header">
-        <ul class="menu-list-header">
-          <li class="menu-header">
-            <a href="#" class="main-menu-link-header">
-              <i class="fa fa-home" aria-hidden="true"></i>
-              Главная</a>
-          </li>
-  
-          <li class="menu-header">
-            <a href="#" class="main-menu-link-header"> 
-              <i class="fa fa-user" aria-hidden="true"></i>
-              Об авторе</a>
-              <!-- <img src="./img/icons/woman.png" alt="user" class="icon-header">Об авторе</a> -->
-          </li>
-         
-          <li class="menu-header">
-            <a href="#" class="main-menu-link-header">
-              <i class="fa fa-envelope" aria-hidden="true"></i>
-              Контакты</a>
-              <!-- <img src="./img/icons/letter.png" alt="letter" class="icon-header">Контакты</a> -->
-          </li>
+    </div>
 
-          <li class="menu-header">
-            <a href="#" class="main-menu-link-header">
-              <i class="fa fa-pencil" aria-hidden="true"></i>
-              Стихи</a>
-          </li>
-
-          <!--<li class="menu-header">
-            <a href="#" class="main-menu-link-header">Отрывки</a>
-          </li>-->
-        </ul>
-      </nav>      
-    </header>
-
-    
-        </div>
-<link rel="stylesheet" href="./js/script.js">
-</body>
+    <footer class="page-footer">
+      <ul class="social">
+        <li class="social__item">
+          <a
+            href="https://t.me/sagi_tta"
+            class="social__link"
+            target="_blank"
+          >
+          <i class="fa fa-telegram" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="social__item">
+          <a
+            href="https://www.instagram.com/shatushshowroom"
+            class="social__link"
+            target="_blank"
+          >
+            <i class="fa fa-instagram social__icon" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>
